@@ -27,7 +27,7 @@ func distancia (_ punto1: Int, _ punto2: Int) throws -> Int{ //le digo que esta 
 }
 
 //-------
-
+/*
 func prueba(){
     var x = try? distancia(2, 3)
     
@@ -41,4 +41,5 @@ func prueba(){
     } catch {
         print("")
     }
-}
+ 
+}*/

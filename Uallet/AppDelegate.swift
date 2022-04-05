@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UserDefaults.standard.double(forKey: "timestamp_bg")
         if timeStampViejo > 0 {
             let timeStampNuevo = NSDate().timeIntervalSince1970
-            let tiempoPaso = timeStampViejo - timeStampNuevo
+            let tiempoPaso = timeStampNuevo - timeStampViejo
             print("Abriste la app \(tiempoPaso) segundos después")
         } else {
             print("Primera ejecucion")
