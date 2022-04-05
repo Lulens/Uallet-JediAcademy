@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE065EBF27F341B1004A4B8A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE065EBE27F341B1004A4B8A /* API.swift */; };
+		BE065EC827F4A2A2004A4B8A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE065EC627F4A2A2004A4B8A /* DashboardViewController.swift */; };
+		BE065EC927F4A2A2004A4B8A /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE065EC727F4A2A2004A4B8A /* DashboardViewController.xib */; };
+		BE065ED027F4A2E9004A4B8A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE065ECE27F4A2E9004A4B8A /* InfoViewController.swift */; };
+		BE065ED127F4A2E9004A4B8A /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE065ECF27F4A2E9004A4B8A /* InfoViewController.xib */; };
+		BE065ED427F4A425004A4B8A /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE065ED327F4A425004A4B8A /* MainTabViewController.swift */; };
+		BE4552D727FC71520039EEDB /* DolarRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4552D627FC71520039EEDB /* DolarRate.swift */; };
+		BE4552D927FC77A00039EEDB /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4552D827FC77A00039EEDB /* Wallet.swift */; };
+		BE4552DB27FC78150039EEDB /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4552DA27FC78150039EEDB /* Currency.swift */; };
+		BE4552DD27FC79400039EEDB /* WalletsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4552DC27FC79400039EEDB /* WalletsStorage.swift */; };
+		BE4552E427FC80910039EEDB /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4552E227FC80910039EEDB /* WalletsViewController.swift */; };
+		BE4552E527FC80910039EEDB /* WalletsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4552E327FC80910039EEDB /* WalletsViewController.xib */; };
+		BE6D507527FB215000E6CAC0 /* Pruebas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D507427FB215000E6CAC0 /* Pruebas.swift */; };
+		BE6D507727FB39A800E6CAC0 /* APICotizaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D507627FB39A800E6CAC0 /* APICotizaciones.swift */; };
+		BE6D507927FB3CE800E6CAC0 /* APIBitcoinStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D507827FB3CE800E6CAC0 /* APIBitcoinStructs.swift */; };
+		BE6D507D27FB3D4200E6CAC0 /* APIDolarStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D507C27FB3D4200E6CAC0 /* APIDolarStructs.swift */; };
+		BE6D508027FB40A400E6CAC0 /* APICotizacionesPromises.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D507F27FB40A400E6CAC0 /* APICotizacionesPromises.swift */; };
+		BE6D508227FB712600E6CAC0 /* ManejoErrores.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D508127FB712600E6CAC0 /* ManejoErrores.swift */; };
+		BEAAA6DC27EE43930084A054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAA6DB27EE43930084A054 /* AppDelegate.swift */; };
+		BEAAA6DE27EE43930084A054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAA6DD27EE43930084A054 /* SceneDelegate.swift */; };
+		BEAAA6E027EE43930084A054 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAA6DF27EE43930084A054 /* LoginViewController.swift */; };
+		BEAAA6E327EE43930084A054 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA6E127EE43930084A054 /* LoginViewController.storyboard */; };
+		BEAAA6E527EE43940084A054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA6E427EE43940084A054 /* Assets.xcassets */; };
+		BEAAA6E827EE43940084A054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA6E627EE43940084A054 /* LaunchScreen.storyboard */; };
+		BEAAA6F227EE49090084A054 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA6F127EE49090084A054 /* logo.png */; };
+		BEB8845D27F4F83F005DAAB8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB8845B27F4F83F005DAAB8 /* HomeViewController.swift */; };
+		BEB8845E27F4F83F005DAAB8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB8845C27F4F83F005DAAB8 /* HomeViewController.xib */; };
+		BEB8846127F5DF88005DAAB8 /* WalletAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB8845F27F5DF88005DAAB8 /* WalletAddViewController.swift */; };
+		BEB8846227F5DF88005DAAB8 /* WalletAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB8846027F5DF88005DAAB8 /* WalletAddViewController.xib */; };
+		BEB8846427F626D4005DAAB8 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB8846327F626D4005DAAB8 /* Storage.swift */; };
+		FD0D14BD615BCA18045D5078 /* Pods_Uallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C5ACCAFB002C84660E3807 /* Pods_Uallet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29C5ACCAFB002C84660E3807 /* Pods_Uallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5636509B35C8AF7A3783CA36 /* Pods-Uallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uallet.release.xcconfig"; path = "Target Support Files/Pods-Uallet/Pods-Uallet.release.xcconfig"; sourceTree = "<group>"; };
+		B12D34517FCDB2702215C3FC /* Pods-Uallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uallet.debug.xcconfig"; path = "Target Support Files/Pods-Uallet/Pods-Uallet.debug.xcconfig"; sourceTree = "<group>"; };
+		BE065EBE27F341B1004A4B8A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BE065EC627F4A2A2004A4B8A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		BE065EC727F4A2A2004A4B8A /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		BE065ECE27F4A2E9004A4B8A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BE065ECF27F4A2E9004A4B8A /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		BE065ED327F4A425004A4B8A /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		BE4552D627FC71520039EEDB /* DolarRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarRate.swift; sourceTree = "<group>"; };
+		BE4552D827FC77A00039EEDB /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		BE4552DA27FC78150039EEDB /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		BE4552DC27FC79400039EEDB /* WalletsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsStorage.swift; sourceTree = "<group>"; };
+		BE4552E227FC80910039EEDB /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
+		BE4552E327FC80910039EEDB /* WalletsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletsViewController.xib; sourceTree = "<group>"; };
+		BE6D507427FB215000E6CAC0 /* Pruebas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pruebas.swift; sourceTree = "<group>"; };
+		BE6D507627FB39A800E6CAC0 /* APICotizaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICotizaciones.swift; path = Uallet/APIs/APICotizaciones.swift; sourceTree = SOURCE_ROOT; };
+		BE6D507827FB3CE800E6CAC0 /* APIBitcoinStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIBitcoinStructs.swift; path = Uallet/APIs/APIBitcoinStructs.swift; sourceTree = SOURCE_ROOT; };
+		BE6D507C27FB3D4200E6CAC0 /* APIDolarStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDolarStructs.swift; sourceTree = "<group>"; };
+		BE6D507F27FB40A400E6CAC0 /* APICotizacionesPromises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICotizacionesPromises.swift; sourceTree = "<group>"; };
+		BE6D508127FB712600E6CAC0 /* ManejoErrores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManejoErrores.swift; sourceTree = "<group>"; };
+		BEAAA6D827EE43930084A054 /* Uallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAAA6DB27EE43930084A054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEAAA6DD27EE43930084A054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEAAA6DF27EE43930084A054 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BEAAA6E227EE43930084A054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginViewController.storyboard; sourceTree = "<group>"; };
+		BEAAA6E427EE43940084A054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEAAA6E727EE43940084A054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEAAA6E927EE43940084A054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAAA6F127EE49090084A054 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Uallet/Recursos/logo.png; sourceTree = SOURCE_ROOT; };
+		BEB8845B27F4F83F005DAAB8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BEB8845C27F4F83F005DAAB8 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BEB8845F27F5DF88005DAAB8 /* WalletAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAddViewController.swift; sourceTree = "<group>"; };
+		BEB8846027F5DF88005DAAB8 /* WalletAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletAddViewController.xib; sourceTree = "<group>"; };
+		BEB8846327F626D4005DAAB8 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEAAA6D527EE43930084A054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0D14BD615BCA18045D5078 /* Pods_Uallet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA0BF50F662F4AD26F5925C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B12D34517FCDB2702215C3FC /* Pods-Uallet.debug.xcconfig */,
+				5636509B35C8AF7A3783CA36 /* Pods-Uallet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE065ED227F4A305004A4B8A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE065ED327F4A425004A4B8A /* MainTabViewController.swift */,
+				BEB8845B27F4F83F005DAAB8 /* HomeViewController.swift */,
+				BEB8845C27F4F83F005DAAB8 /* HomeViewController.xib */,
+				BE065EC627F4A2A2004A4B8A /* DashboardViewController.swift */,
+				BE065EC727F4A2A2004A4B8A /* DashboardViewController.xib */,
+				BE065ECE27F4A2E9004A4B8A /* InfoViewController.swift */,
+				BE065ECF27F4A2E9004A4B8A /* InfoViewController.xib */,
+				BEB8845F27F5DF88005DAAB8 /* WalletAddViewController.swift */,
+				BEB8846027F5DF88005DAAB8 /* WalletAddViewController.xib */,
+				BEAAA6DF27EE43930084A054 /* LoginViewController.swift */,
+				BEAAA6E127EE43930084A054 /* LoginViewController.storyboard */,
+				BE4552E227FC80910039EEDB /* WalletsViewController.swift */,
+				BE4552E327FC80910039EEDB /* WalletsViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BE4552D527FC71360039EEDB /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				BE4552D627FC71520039EEDB /* DolarRate.swift */,
+				BE4552D827FC77A00039EEDB /* Wallet.swift */,
+				BE4552DA27FC78150039EEDB /* Currency.swift */,
+				BE4552DC27FC79400039EEDB /* WalletsStorage.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		BE6D507E27FB405D00E6CAC0 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				BE6D507827FB3CE800E6CAC0 /* APIBitcoinStructs.swift */,
+				BE6D507C27FB3D4200E6CAC0 /* APIDolarStructs.swift */,
+				BE6D507627FB39A800E6CAC0 /* APICotizaciones.swift */,
+				BE6D507F27FB40A400E6CAC0 /* APICotizacionesPromises.swift */,
+				BE065EBE27F341B1004A4B8A /* API.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		BEAAA6CF27EE43930084A054 = {
+			isa = PBXGroup;
+			children = (
+				BEAAA6DA27EE43930084A054 /* Uallet */,
+				BEAAA6D927EE43930084A054 /* Products */,
+				ABA0BF50F662F4AD26F5925C /* Pods */,
+				D817D02D0F9A7918877A85FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEAAA6D927EE43930084A054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAAA6D827EE43930084A054 /* Uallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEAAA6DA27EE43930084A054 /* Uallet */ = {
+			isa = PBXGroup;
+			children = (
+				BE065ED227F4A305004A4B8A /* ViewControllers */,
+				BE6D507E27FB405D00E6CAC0 /* APIs */,
+				BE4552D527FC71360039EEDB /* Modelos */,
+				BEB8846527F795D1005DAAB8 /* Utilitarios */,
+				BEB8846627F795F1005DAAB8 /* Recursos */,
+				BEAAA6DB27EE43930084A054 /* AppDelegate.swift */,
+				BEAAA6DD27EE43930084A054 /* SceneDelegate.swift */,
+				BEAAA6E627EE43940084A054 /* LaunchScreen.storyboard */,
+				BEAAA6E927EE43940084A054 /* Info.plist */,
+			);
+			path = Uallet;
+			sourceTree = "<group>";
+		};
+		BEB8846527F795D1005DAAB8 /* Utilitarios */ = {
+			isa = PBXGroup;
+			children = (
+				BEB8846327F626D4005DAAB8 /* Storage.swift */,
+				BE6D507427FB215000E6CAC0 /* Pruebas.swift */,
+				BE6D508127FB712600E6CAC0 /* ManejoErrores.swift */,
+			);
+			path = Utilitarios;
+			sourceTree = "<group>";
+		};
+		BEB8846627F795F1005DAAB8 /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				BEAAA6F127EE49090084A054 /* logo.png */,
+				BEAAA6E427EE43940084A054 /* Assets.xcassets */,
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		D817D02D0F9A7918877A85FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29C5ACCAFB002C84660E3807 /* Pods_Uallet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEAAA6D727EE43930084A054 /* Uallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAAA6EC27EE43940084A054 /* Build configuration list for PBXNativeTarget "Uallet" */;
+			buildPhases = (
+				F8A549BEBCFC3A24547D670F /* [CP] Check Pods Manifest.lock */,
+				BEAAA6D427EE43930084A054 /* Sources */,
+				BEAAA6D527EE43930084A054 /* Frameworks */,
+				BEAAA6D627EE43930084A054 /* Resources */,
+				6456EC7E9536BF5A71AFBB38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uallet;
+			productName = Uallet;
+			productReference = BEAAA6D827EE43930084A054 /* Uallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEAAA6D027EE43930084A054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BEAAA6D727EE43930084A054 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = BEAAA6D327EE43930084A054 /* Build configuration list for PBXProject "Uallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEAAA6CF27EE43930084A054;
+			productRefGroup = BEAAA6D927EE43930084A054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEAAA6D727EE43930084A054 /* Uallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEAAA6D627EE43930084A054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAAA6F227EE49090084A054 /* logo.png in Resources */,
+				BEAAA6E827EE43940084A054 /* LaunchScreen.storyboard in Resources */,
+				BE065EC927F4A2A2004A4B8A /* DashboardViewController.xib in Resources */,
+				BEAAA6E527EE43940084A054 /* Assets.xcassets in Resources */,
+				BEAAA6E327EE43930084A054 /* LoginViewController.storyboard in Resources */,
+				BE4552E527FC80910039EEDB /* WalletsViewController.xib in Resources */,
+				BE065ED127F4A2E9004A4B8A /* InfoViewController.xib in Resources */,
+				BEB8845E27F4F83F005DAAB8 /* HomeViewController.xib in Resources */,
+				BEB8846227F5DF88005DAAB8 /* WalletAddViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6456EC7E9536BF5A71AFBB38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uallet/Pods-Uallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Uallet/Pods-Uallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Uallet/Pods-Uallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A549BEBCFC3A24547D670F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Uallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEAAA6D427EE43930084A054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAAA6E027EE43930084A054 /* LoginViewController.swift in Sources */,
+				BEB8846427F626D4005DAAB8 /* Storage.swift in Sources */,
+				BE6D507D27FB3D4200E6CAC0 /* APIDolarStructs.swift in Sources */,
+				BE6D507727FB39A800E6CAC0 /* APICotizaciones.swift in Sources */,
+				BE065ED427F4A425004A4B8A /* MainTabViewController.swift in Sources */,
+				BE6D508227FB712600E6CAC0 /* ManejoErrores.swift in Sources */,
+				BE4552E427FC80910039EEDB /* WalletsViewController.swift in Sources */,
+				BE4552D927FC77A00039EEDB /* Wallet.swift in Sources */,
+				BEAAA6DC27EE43930084A054 /* AppDelegate.swift in Sources */,
+				BE065EC827F4A2A2004A4B8A /* DashboardViewController.swift in Sources */,
+				BE4552D727FC71520039EEDB /* DolarRate.swift in Sources */,
+				BE065ED027F4A2E9004A4B8A /* InfoViewController.swift in Sources */,
+				BE6D507527FB215000E6CAC0 /* Pruebas.swift in Sources */,
+				BEB8845D27F4F83F005DAAB8 /* HomeViewController.swift in Sources */,
+				BE065EBF27F341B1004A4B8A /* API.swift in Sources */,
+				BE4552DD27FC79400039EEDB /* WalletsStorage.swift in Sources */,
+				BEAAA6DE27EE43930084A054 /* SceneDelegate.swift in Sources */,
+				BE4552DB27FC78150039EEDB /* Currency.swift in Sources */,
+				BE6D507927FB3CE800E6CAC0 /* APIBitcoinStructs.swift in Sources */,
+				BEB8846127F5DF88005DAAB8 /* WalletAddViewController.swift in Sources */,
+				BE6D508027FB40A400E6CAC0 /* APICotizacionesPromises.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEAAA6E127EE43930084A054 /* LoginViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAAA6E227EE43930084A054 /* Base */,
+			);
+			name = LoginViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		BEAAA6E627EE43940084A054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAAA6E727EE43940084A054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEAAA6EA27EE43940084A054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEAAA6EB27EE43940084A054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEAAA6ED27EE43940084A054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12D34517FCDB2702215C3FC /* Pods-Uallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uallet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uala.jedi.Uallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEAAA6EE27EE43940084A054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5636509B35C8AF7A3783CA36 /* Pods-Uallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uallet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LoginViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uala.jedi.Uallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEAAA6D327EE43930084A054 /* Build configuration list for PBXProject "Uallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAAA6EA27EE43940084A054 /* Debug */,
+				BEAAA6EB27EE43940084A054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAAA6EC27EE43940084A054 /* Build configuration list for PBXNativeTarget "Uallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAAA6ED27EE43940084A054 /* Debug */,
+				BEAAA6EE27EE43940084A054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEAAA6D027EE43930084A054 /* Project object */;
+}
